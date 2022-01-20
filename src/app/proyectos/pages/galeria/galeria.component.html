@@ -1,0 +1,15 @@
+
+<div class="head">
+    <div class="categorias" id="categorias">
+        <a [routerLinkActive]="'activo'" [routerLink]="[ '/galeria', 'proyecto1' ]">Proyecto 1</a>
+        <a [routerLinkActive]="'activo'" [routerLink]="[ '/galeria', 'proyecto2' ]">Proyecto 2</a>
+        <a [routerLinkActive]="'activo'" [routerLink]="[ '/galeria', 'proyecto3' ]">Proyecto 3</a>
+        <a [routerLinkActive]="'activo'" [routerLink]="[ '/galeria', 'proyecto4' ]">Proyecto 4</a>
+        <a [routerLinkActive]="'activo'" [routerLink]="[ '/galeria', 'proyecto5' ]">Proyecto 5</a>
+    </div>
+</div>
+
+<section class="ficha containerCarta" >
+    <router-outlet></router-outlet>
+</section>
+
